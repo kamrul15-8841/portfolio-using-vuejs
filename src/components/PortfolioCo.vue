@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">My Project Portfolio</h3>
           </div>
         </div>
         <div class="row">
@@ -19,7 +19,7 @@
                     <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <a href={{obj.img}}>Link</a>
+                    
                     <h4>{{ obj.caption }}</h4>
                     <p class="text-muted">{{ obj.title }}</p>
                 </div>
@@ -34,17 +34,17 @@ export default {
     data: () => ({
         portfolioJSON: [
             {
-                img: 'https://github.com/kamrul15-8841/portfolio-using-vuejs',
+                
                 caption: 'Personal Portfolio Website',
                 title: 'Using VueJS and Bootstrap'
             },
             {
-                img: '/something/random/img.jpg',
+               
                 caption: 'Health Profile Manager ',
                 title: 'An Android Application Based on Java'
             },
             {
-                img: '/something/random/img.jpg',
+               
                 caption: 'Pico-Pi-An Ecommerce Website ',
                 title: 'An Ecommerce Website using HTML CSS and PHP '
             },

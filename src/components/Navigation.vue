@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <router-link class="navbar-brand js-scroll-trigger" to="/">Start Bootstrap</router-link>
+        <router-link class="navbar-brand js-scroll-trigger" to="/page-top">Md. Kamrul Hasan</router-link>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -35,6 +35,7 @@
 export default {
     data: () => ({
         navList: [
+          
             {
                 name: 'Education',
                 path: '#education'
