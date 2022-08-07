@@ -36,8 +36,8 @@ export default {
     data: () => ({
         navList: [
             {
-                name: 'Services',
-                path: '#services'
+                name: 'Education',
+                path: '#education'
             },
             {
                 name: 'Portfolio',
@@ -47,18 +47,12 @@ export default {
                 name: 'About',
                 path: '#about'
             },
-            {
-                name: 'Team',
-                path: '#team'
-            },
+         
             {
                 name: 'Contact',
                 path: '#contact'
             },
-            {
-                name: 'Blog',
-                path: '/blog'
-            }
+           
         ]
     })
 }
@@ -67,7 +61,7 @@ export default {
 <style scoped>
 
 #mainNav.navbar {
-    background: rgba(211, 39, 39, 0.5);
+    background: rgba(0,0,0,0.5);
 }
 
 

@@ -19,7 +19,7 @@
                     <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <img src={{obj.img}} alt="This is image">
+                    <a href={{obj.img}}>Link</a>
                     <h4>{{ obj.caption }}</h4>
                     <p class="text-muted">{{ obj.title }}</p>
                 </div>
@@ -34,40 +34,21 @@ export default {
     data: () => ({
         portfolioJSON: [
             {
-                img: '/assets/img/1.jpg',
+                img: 'https://github.com/kamrul15-8841/portfolio-using-vuejs',
                 caption: 'Personal Portfolio Website',
                 title: 'Using VueJS and Bootstrap'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Finish',
-                title: 'Identify'
+                caption: 'Health Profile Manager ',
+                title: 'An Android Application Based on Java'
             },
             {
                 img: '/something/random/img.jpg',
-                caption: 'Lines',
-                title: 'Branding'
+                caption: 'Pico-Pi-An Ecommerce Website ',
+                title: 'An Ecommerce Website using HTML CSS and PHP '
             },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Southwest',
-                title: 'Website Design'
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Window',
-                title: 'Photography'
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Coffee',
-                title: 'Drink a Lot!' 
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Pizza',
-                title: 'I Ate some Pizza!'
-            }
+            
         ]
     })
 }
