@@ -19,6 +19,7 @@
                     <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
                 </a>
                 <div class="portfolio-caption">
+                    <img src={{obj.img}} alt="This is image">
                     <h4>{{ obj.caption }}</h4>
                     <p class="text-muted">{{ obj.title }}</p>
                 </div>
@@ -33,9 +34,9 @@ export default {
     data: () => ({
         portfolioJSON: [
             {
-                img: '/something/random/img.jpg',
-                caption: 'Explore',
-                title: 'Graphic Design'
+                img: '/assets/img/1.jpg',
+                caption: 'Personal Portfolio Website',
+                title: 'Using VueJS and Bootstrap'
             },
             {
                 img: '/something/random/img.jpg',

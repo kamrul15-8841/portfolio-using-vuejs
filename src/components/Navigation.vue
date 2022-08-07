@@ -67,7 +67,7 @@ export default {
 <style scoped>
 
 #mainNav.navbar {
-    background: rgba(0,0,0,0.5);
+    background: rgba(211, 39, 39, 0.5);
 }
 
 
